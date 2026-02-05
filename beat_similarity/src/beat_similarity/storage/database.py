@@ -7,7 +7,7 @@ import psycopg2
 import os
 from dotenv import load_dotenv
 from pgvector.psycopg2 import register_vector
-from beat_similarity.src.beat_similarity.utils.logger import setup_app_logger
+
 
 class BeatDatabaseHandler:
     def __init__(self, logger):
