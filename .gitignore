@@ -206,6 +206,10 @@ marimo/_static/
 marimo/_lsp/
 __marimo__/
 
-beat_similarity/sample_beats/*
-beat_similarity/.beatsim_work/*
-beat_similarity/separated/*
+beat_similarity/sample_beats/
+beat_similarity/.beatsim_work/
+beat_similarity/separated/
+beat_similarity/.beatsim_work/demucs/
+./beat_similarity/logs/
+.env
+*.wav
